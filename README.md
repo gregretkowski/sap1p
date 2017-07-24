@@ -43,18 +43,18 @@ uses the first four bits as the opcode, and the second four bits as an
 argument to the opcode. Frequently the argument is a memory address, but may
 also be a 4-bit value.
 
-%0000 $0 NOOP: Null operation - do nothing!
-%0001 $1 LDA [X]: load the A register with the value in memory location X
-%0010 $2 ADD [X]: Set A to the value of A plus the value from mem loc X
-%0011 $3 SUB [X]: Set A to the alue of A minus the value from mem loc X
-%0100 $4 STA [X]: Set memory location X to the value in register A
-%0110 $6 JMP [X]: Jump to a new address for the next command execution
-%0111 $7 LDI X: Load the A register with the passed 4-bit value
-%1000 $8 JC [X]: Jump to new address if carry bit set (branching)
-%1110 $e OUT: Transfer the value in the A register into the display/output
-%1111 $f HLT: Halt computer execution
+    %0000 $0 NOOP: Null operation - do nothing!
+    %0001 $1 LDA [X]: load the A register with the value in memory location X
+    %0010 $2 ADD [X]: Set A to the value of A plus the value from mem loc X
+    %0011 $3 SUB [X]: Set A to the alue of A minus the value from mem loc X
+    %0100 $4 STA [X]: Set memory location X to the value in register A
+    %0110 $6 JMP [X]: Jump to a new address for the next instruction execution
+    %0111 $7 LDI X: Load the A register with the passed 4-bit value
+    %1000 $8 JC [X]: Jump to new address if carry bit set (branching)
+    %1110 $e OUT: Transfer the value in the A register into the display/output
+    %1111 $f HLT: Halt computer execution
 
-There is room for more commands/opcodes - if you desire to expand the computer.
+There is room for more instructions/opcodes - if you desire to expand the computer.
 
 
 ## Example Programs
