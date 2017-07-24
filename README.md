@@ -2,6 +2,8 @@ This is an 8-Bit computer built within [Logisim](http://www.cburch.com/logisim/i
 based on the excelent [video series by Ben Eater](https://www.youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU)
 .
 
+![The SAP1p schematic](i/sap1p.jpg??raw=true)
+
 The architecture is based on the [Simple as Possible 1](http://drghimire.com.np/simple-as-possible-computer-1-sap1-architecture/)
 computer. It has an 8-bit bus, and features an 8-bit by 16 row memory. Most
 operations use the 'A' register, and can perform addition and subtraction via
