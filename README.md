@@ -114,7 +114,7 @@ Flags
 * CE: Instruction Counter Increment
 * CO: Instruction Counter output
 * J: Jump to address (Counter Input)
-
+<pre>
 
              0 1 2 3  4 5 6 7  8 9 0 1  2 3 4 5
         i s  H M R R  I I A A  E S B O  C C   J
@@ -148,6 +148,8 @@ Flags
     OUT e 2                 1        1          0110
     1111:
     HLT f 2  1                                  8000
+
+</pre>
 
 ## Reference - hex to binary
 
